@@ -1,4 +1,5 @@
 from flask import Flask
+from osgeo import gdal
 app = Flask(__name__)
 
 @app.route('/')
